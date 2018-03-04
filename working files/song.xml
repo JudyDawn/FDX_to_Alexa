@@ -1,0 +1,36 @@
+<stream xmlns='http://talestreamer.ai/schema/tsml' style='volume-profile: prenormalized'>
+  <head>
+    <style>.agent_x{ voice: Matthew} .alexa{ voice: Amy} .mom{ voice: Raveena} .lidia{ voice: Emma}
+    </style>
+  </head>
+  <span class='alexa'> Welcome to the first day of your new job. </span>
+  <span class='agent_x'> You're late. Do you even know what you're doing? </span>
+  <span class='alexa'> Agent x glares at you from across the desk. </span>
+  <span class='agent_x'> Whatever. listen up. You need to recruit Lidia Boon. She's an artist from 2018 and we need her creative skills. All you need to do is help her make it through the interview. </span>
+  <span class='alexa'> Oh, This won't be easy. </span>
+  <span class='agent_x'> At key moments in her day, you'll need to decide if it's best for her to be lucky or unlucky. </span>
+  <span class='alexa'> Agent x pauses to look you over one more time before barking his question. </span>
+  <span class='agent_x'> Will your day start lucky or unlucky? </span>
+  <audio src="https://s3.amazonaws.com/magicdoor.huntwork.net/library/RIDESHARE_X/RIDESHARE_X_HARD_FX_2.mp3" style="end:0.2s"></audio>
+  <span class='agent_x'> Choose Lucky or Unlucky. </span>
+</stream>
+
+<stream xmlns='http://talestreamer.ai/schema/tsml' style='volume-profile: prenormalized'>
+  <head>
+    <style>.agent_x{ voice: Matthew} .alexa{ voice: Amy} .mom{ voice: Raveena} .lidia{ voice: Emma} </style>
+  </head>
+  <span class='mom'> Don't mess this up! </span>
+  <span class='lidia'> I won't. </span> 
+  <span class='alexa'> Lidia argued on the phone with her mother while she rushed to catch her bus. </span>
+  <span class='mom'> You won't get another chance. This job is... </span>
+  <span class='lidia'> I'm going to be late. Bye Mom. </span>
+  <span class='alexa'> Lidia disconnected and climbed aboard the bus. She found a seat near the front. </span>
+  <span class='alexa'> Lidia hugged her large art portfolio to her chest and turned to glance out the window at nothing. </span>
+  <span class='alexa'> Today she would change her world. With this job, she could repay her mother before Frank found out. </span>
+  <span class='lidia'> Goldenrod </span>
+  <span class='alexa'> Maybe, she could even buy some food. As if on cue, her stomach growled at the thought. </span>
+  <span class='alexa'> The bus jerked and her portfolio slipped from her grip.</span>
+  <span class='agent_x'> Lucky or unlucky? </span>
+  <audio src="https://s3.amazonaws.com/magicdoor.huntwork.net/library/RIDESHARE_X/RIDESHARE_X_HARD_FX_2.mp3" style="end:0.2s"></audio>
+  <span class='agent_x'> Lucky or unlucky? </span>
+</stream>

@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<FinalDraft DocumentType='Script' Template='No' Version='1'>
+  <Content>
+    <Paragraph Type='New Act'>
+      <Text>Episode 1</Text>
+    </Paragraph>
+    <Paragraph Type='Scene Heading'>
+      <Text>Legend</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Agent X</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Matthew</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>alexa</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Amy</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Mom</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Raveena</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Lidia</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Emma</Text>
+    </Paragraph>
+    <Paragraph Type='Scene Heading'>
+      <Text>Scene 1</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Main:</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Welcome to the first day of your new job.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>ageNT X</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>You&apos;re late. Do you even know what you&apos;re doing?</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Agent x glares at you from across the desk.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>AgenT X</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Whatever. listen up. You need to recruit Lidia Boon. She&apos;s an artist from 2018 and we need her creative skills. All you need to do is help her make it through the interview.</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Oh, This won&apos;t be easy.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>AgenT X</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>At key moments in her day, you&apos;ll need to decide if it&apos;s best for her to be lucky or unlucky.</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Agent x pauses to look you over one more time before barking his question.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>AGENT X</Text>
+    </Paragraph>
+    <Paragraph Type='Parenthetical'>
+      <Text>(src=&quot;https://s3.amazonaws.com/audiofilescasual5/LUL_INTRO.wav&quot;)</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Choose Lucky or Unlucky.</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Lucky &gt; scene 2</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>AgeNT X</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Good maybe the door won&apos;t hit you in your ass on the way out. Get your headset on and start monitoring Lidia&apos;s progress. She&apos;s already at the bus stop</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Unlucky &gt; scene 2</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>You go to your desk and reach to put your headset on. As you do so, the cord catches your half finished cold coffee and knocks it to the floor making a dark rorschach pattern.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>AgeNT X</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>What is going on here. Get your headset on and start monitoring Lidia&apos;s progress. She&apos;s already at the bus stop</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type='Scene Heading'>
+      <Text>scene 2</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Main:</Text>
+    </Paragraph>
+    <Paragraph Type='Parenthetical'>
+      <Text>(style=&quot;background-sound: https://s3.amazonaws.com/audiofilescasual5/BUS_STOP.wav; background-volume: loud&quot;)</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Mom</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Don&apos;t mess this up!</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Lidia</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>I won&apos;t.</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Lidia argued on the phone with her mother while she rushed to catch her bus.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>MoM</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>You won&apos;t get another chance. This job is...</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Lidia</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>I&apos;m going to be late. Bye Mom.</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Lidia disconnected and climbed aboard the bus. She found a seat near the front.</Text>
+    </Paragraph>
+    <Paragraph Type='Parenthetical'>
+      <Text>(src=&quot;https://s3.amazonaws.com/audiofilescasual5/BUS_START.wav&quot; style=&quot;start: 3; end: 7&quot;)</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>On an exhale, Lidia glanced at a couple on the back seat of the bus. There was another woman almost completely hidden by a huge bag resting on her lap. On a bench seat opposite the woman, three children had their heads together staring at the same tablet.</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Lidia hugged her large art portfolio to her chest and turned to glance out the window at nothing.</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Today she would change her world. With this job, she could repay her mother before Frank found out.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>liDIA</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Golden rod</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>Maybe, she could even buy some food. As if on cue, her stomach growled at the thought.</Text>
+    </Paragraph>
+    <Paragraph Type='Parenthetical'>
+      <Text>(src=&quot;https://s3.amazonaws.com/audiofilescasual5/BUS_BREAK.wav&quot;)</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>The bus jerked and her portfolio slipped from her grip.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Agent x</Text>
+    </Paragraph>
+    <Paragraph Type='Parenthetical'>
+      <Text>(src=&quot;https://s3.amazonaws.com/audiofilescasual5/LUL_INTRO.wav&quot;)</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Lucky or unlucky?</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Lucky &gt; scene 3</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>This is what happens when you say Lucky</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>LiDIA</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Oh dang.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>mom</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>I told you so.</Text>
+    </Paragraph>
+    <Paragraph Type='Scene Heading'>
+      <Text>Scene 3</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Main:</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>liDIA</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Today is going to be better I just know it.</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>We&apos;ll see.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>AgeNT X</Text>
+    </Paragraph>
+    <Paragraph Type='Parenthetical'>
+      <Text>(src=&quot;https://s3.amazonaws.com/audiofilescasual5/LUL_INTRO.wav&quot;)</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Lucky or unlucky?</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Lucky &gt; end</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>That was lucky</Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Unlucky &gt; scene 4</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>AgenT X</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Wow you really blew it.</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text></Text>
+    </Paragraph>
+  </Content>
+</FinalDraft>

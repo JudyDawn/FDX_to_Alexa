@@ -1,0 +1,77 @@
+Scene Heading: Scene 1
+Character: Alexa
+Dialogue: What Alexa Says
+Character: Voice 2
+Dialogue: What a second voice says
+Parenthetical: (audio clip)
+Character: Alexa
+Dialogue: Also what Alexa says. This time it's a prompt
+Action: action
+Character: USER
+Dialogue: I'm interested in {choice} and cheese
+Transition: Choice A > Scene x:
+Character: Alexa
+Dialogue: This is a transition to scene x for slot value a
+Transition: choice b > Scene Y:
+Character: Alexa
+Dialogue: This is a transition to scene y for slot value b
+Scene Heading: SCENE 2
+New Act: background audio starts
+Character: Alexa
+Dialogue: Alexa starts scene 2
+Character: Voice 3
+Dialogue: Voice 3 talking
+End of Act: End act
+
+	Expected "Amy", "Astrid", "Brian", "Carla", "Carmen", "Celine", "Chantal", "Conchita", "Cristiano", "Dora", "Emma", "Enrique", "Ewa", "Filiz", "Geraint", "Giorgio", "Gwyneth", "Hans", "Ines", "Ivy", "Jacek", "Jan", "Joanna", "Joey", "Justin", "Karl", "Kendra", "Kimberly", "Liv", "Lotte", "Mads", "Maja", "Marlene", "Mathieu", "Matthew", "Maxim", "Miguel", "Mizuki", "Naja", "Nicole", "Penelope", "Raveena", "Ricardo", "Ruben", "Russell", "Salli", "Tatyana", "Vicki", "Vitoria", or [ ] but "A" found.
+
+  <stream xmlns="http://talestreamer.ai/schema/tsml">
+   <head>
+     <style>
+       stream {
+         volume-profile: prenormalized;
+       }
+       .narratorBreak {
+         voice: Matthew;
+         break: .5s;
+       }
+       .narrator {
+         voice: Matthew;
+       }
+       .intro {
+         background-sound: url(https://s3.amazonaws.com/magicdoor.huntwork.net/library/ts_intro/bg.mp3);
+         background-volume: loud;
+       }
+       .pause {
+         break: .5s;
+       }
+       .extra {
+         voice: Brian;
+       }
+       .shortPause {
+         break: .1s;
+       }
+       #welcome {
+         start: 146;
+         end: 151.3;
+         volume: 5db;
+       }
+       #trailer {
+         volume: -10db;
+       }
+     </style>
+   </head>
+   <span class="narratorBreak">This is plain text to speech.</span>
+   <span class="narratorBreak">Welcome to Talestreamer by the Magic Door. You can add audible personality, branding, and emotion to your voice bot, using Talestreamer. We’re all here to help. Let’s get started.</span>
+   <span class="narratorBreak">And this is Talestreamer.</span>
+   <audio src="http://s3.amazonaws.com/magicdoor.huntwork.net/library/TS_INTRO_1_PART_LOGO_START.mp3"></audio>
+   <span class="intro">
+     <audio id="welcome" src="http://s3.amazonaws.com/magicdoor.huntwork.net/library/MagicDoor_GhostCaptain.mp3"></audio>
+     <span class="pause"></span>
+     <span class="narrator">You can add audible personality, branding, and emotion to your voice bot, using Talestreamer.</span>
+     <span class="pause"></span>
+     <span class="extra">We’re all here to help. Let’s get started!</span>
+     <span class="shortPause"></span>
+   </span>
+   <audio id="trailer" src="http://s3.amazonaws.com/magicdoor.huntwork.net/library/TS_INTRO_1_PART_LOGO_END.mp3"></audio>
+ </stream>

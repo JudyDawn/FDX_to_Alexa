@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<FinalDraft DocumentType='Script' Template='No' Version='1'>
+  <Content>
+    <Paragraph Type='Scene Heading'>
+      <Text>Scene 1</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Alexa</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>What Alexa Says</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Voice 2</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>What a second voice says</Text>
+    </Paragraph>
+    <Paragraph Type='Parenthetical'>
+      <Text>(audio clip)</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Alexa</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Also what Alexa says. This time it&apos;s a prompt</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text>action</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>USER</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>I&apos;m interested in {choice} and cheese</Text>
+      <ScriptNote ID='1'>
+        <Paragraph>
+          <Text>[[note]]</Text>
+        </Paragraph>
+      </ScriptNote>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>Choice A &gt; Scene x:</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Alexa</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>This is a transition to scene x for slot value a</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type='Transition'>
+      <Text>choice b &gt; Scene Y:</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Alexa</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>This is a transition to scene y for slot value b</Text>
+    </Paragraph>
+    <Paragraph Type='Scene Heading'>
+      <Text>SCENE 2</Text>
+    </Paragraph>
+    <Paragraph Type='New Act'>
+      <Text>background audio starts</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Alexa</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Alexa starts scene 2</Text>
+    </Paragraph>
+    <Paragraph Type='Character'>
+      <Text>Voice 3</Text>
+    </Paragraph>
+    <Paragraph Type='Dialogue'>
+      <Text>Voice 3 talking</Text>
+    </Paragraph>
+    <Paragraph Type='End of Act'>
+      <Text>End act</Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text></Text>
+    </Paragraph>
+    <Paragraph Type='Action'>
+      <Text></Text>
+    </Paragraph>
+  </Content>
+  <TitlePage>
+    <Content>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph Alignment='Center'>
+        <Text>Title</Text>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph Alignment='Center'>
+        <Text>by</Text>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph>
+        <Text/>
+      </Paragraph>
+      <Paragraph Alignment='Center'>
+        <Text>Author</Text>
+      </Paragraph>
+    </Content>
+  </TitlePage>
+</FinalDraft>

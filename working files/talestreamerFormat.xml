@@ -1,0 +1,34 @@
+<stream xmlns="http://talestreamer.ai/schema/tsml" style="volume-profile: prenormalized">
+  <head>
+    <style>
+      .character {
+        voice: Brian;
+      }
+      .pause {
+        break: .5s;
+      }
+      .short pause {
+        break: .1s;
+      }
+    </style>
+  </head>
+
+  <span style="background-sound: https://s3.amazonaws.com/audiofilescasual5/BUS_STOP.wav; background-volume: loud">
+    <span class="character">Don't mess this up!</span>
+    <span class="short pause"></span>
+    <span style="voice: Salli">I won't</span>
+    <span style="voice: Matthew">Lidia argued on the phone with her mother while she rushed to catch her bus.</span>
+    <span style="voice: Joanna">We need this money.</span>
+    <span style="voice: Salli">I understand.</span>
+    <span style="voice: Matthew">Lidia disconnected and climbed aboard the bus. She found a seat near the front. Her mothers words weighed on her shoulders.</span>
+    <audio src="https://s3.amazonaws.com/audiofilescasual5/BUS_START.wav" style="start: 3; end: 7"></audio>
+    <span style="voice: Matthew">On a long exhale, Lidia glanced at a couple on the back seat of the bus. There was another woman almost completely hidden by a huge bag resting on her lap. On a bench seat opposite the woman, three children had their heads together staring at the same tablet.</span>
+  <span style="voice: Matthew">Lidia hugged her large art portfolio to her chest and turned to glance out the window at nothing.</span>
+  <span style="voice: Matthew">Today she would change her world. With this job, she could repay her mother before Frank found out. He didn't like secrets.</span>
+    <span style="break: 0.1s"></span>
+    <audio src="https://s3.amazonaws.com/audiofilescasual5/BUS_BREAK.wav"></audio>
+    <span style="voice: Matthew">The bus jerked and her portfolio slipped from her grip.</span>
+    <audio src="https://s3.amazonaws.com/audiofilescasual5/LUL_INTRO.wav"></audio>
+    <span style="voice: Russell">Lucky or Unlucky?</span>
+  </span>
+</stream>

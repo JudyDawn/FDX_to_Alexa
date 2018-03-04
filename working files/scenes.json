@@ -1,0 +1,65 @@
+
+
+{
+  "scenes": {
+    "scene 1" : {
+      "main":{
+        "text": [""],
+        "nextScene":"",
+      },
+      "choice 1":{
+        "text":[""],
+        "nextScene":""
+      },
+      "choice 2": {
+        "text":[""],
+        "nextScene":""
+      }
+
+    }
+  }
+}
+=========
+
+{
+   "data":{
+      "scenes":{
+         "scene 1":{
+            "main":{
+               "text":[
+                  "<span style='voice: alexa'> what alexa says </span>",
+                  "<span style='voice: voice 2'> what a second voice says </span>",
+                  "<span style='voice: alexa'> also what alexa says. this time it's a prompt </span>"
+               ],
+               "nextScene":""
+            },
+            "choice a":{
+               "nextScene":"scene x",
+               "text":[
+                  "<span style='voice: alexa'> this is a transition to scene x for slot value a </span>"
+               ]
+            },
+            "choice b":{
+               "nextScene":"scene y",
+               "text":[
+                  "<span style='voice: alexa'> this is a transition to scene y for slot value b </span>"
+               ]
+            }
+         },
+         "scene 2":{
+            "main":{
+               "text":[
+                  "<span style='voice: alexa'> alexa starts scene 2 </span>",
+                  "<span style='voice: voice 3'> voice 3 talking </span>"
+               ],
+               "nextScene":""
+            }
+         }
+      }
+   },
+   "current":{
+      "scene":"scene 2",
+      "character":"voice 3",
+      "transition":"main"
+   }
+}

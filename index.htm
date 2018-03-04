@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>FDX to Alexa</title>
+  <script src="js/transform.js" ></script>
+  <script src="js/fileUpload.js" ></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+  <style>
+      .input-group-addon {background-color:white; border:0px; width:200px}
+      .ui-resizable-handle {
+          transform: translateY(-100%);
+        }
+      .settings {background-color:gainsboro; padding:7px}
+      #optionsform {padding:5px; background-color: yellowgreen}
+      .label {padding:5px}
+      .btn {padding:5px; margin-right: 5px;}
+      .panel-body {background-color:whitesmoke}
+      .log {background-color: lightcyan; padding:7px}
+      .invocation {background-color: darkcyan}
+      .inactive {background-color:whitesmoke; color:gray; border:0px}
+      .active {background-color:white}
+      .link {font-family: Courier; text-decoration:none}
+      label {display:block;}
+      textarea { display:block;}
+      #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4{
+          /* width:100px;
+          height:100px; */
+          /*border:1px solid red;*/
+          margin-right:10px;
+          float:left;
+      }
+      .child_div_1{
+          float:left;
+          margin-right:5px;
+      }
+
+  </style>
+</head>
+<body>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  </div>
+  <div class="panel-body">
+    <div id="parent_div_1">
+      <label for="fdx" class="label">FDX XML</label>
+
+      <textarea class="form-control" rows="15" cols="12" id="fdx"></textarea>
+      <button type="button" class="btn btn-info btn-xs" onClick="clearText('fdx');">CLEAR</button>
+    </div>
+    <div id="parent_div_2">
+      <label for="sceneJSON" class="label">Scene JSON</label>
+
+      <textarea class="form-control" rows="15" cols="12" id="sceneJSON"></textarea>
+      <input id="fileChooser" type="file" >
+      <button type="button" class="btn btn-primary btn-xs" onClick="generate();">GENERATE</button>
+      <button type="button" class="btn btn-info btn-xs" onClick="clearText('sceneJSON');">CLEAR</button>
+
+    </div>
+
+    <div id="parent_div_3">
+      <label for="talestreamer" class="label">Talestreamer JSON</label>
+      this:<textarea class="form-control" rows="6" cols="12" id="talestreamerCurrent"></textarea>
+      next:<textarea class="form-control" rows="6" cols="12" id="talestreamerNext"></textarea>
+      scene:<textarea class="form-control" rows="1" cols="6" id="scenePick"></textarea>
+      choice:<textarea class="form-control" rows="1" cols="6" id="choicePick"></textarea>
+      <button type="button" class="btn btn-primary btn-xs" onClick="compose('sceneJson','scenePick','choicePick');">GENERATE</button>
+      <button type="button" class="btn btn-info btn-xs" onClick="clearText('talestreamer');">CLEAR</button>
+
+      <!-- <p> Open this code as a file:
+        <a href="#" id="downloadAnchorElem" style="display:none" onClick=""></a>
+        <a href="#" id="download" onClick="dl();" class="link">index.js</a>
+      </p> -->
+    </div>
+
+
+
+  </div>
+  <div class="panel-footer">
+  </div>
+
+</div>
+
+
+
+</body>
